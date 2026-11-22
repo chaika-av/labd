@@ -2,14 +2,6 @@
 
 Приложение открывает локальную страницу `app/src/main/assets/index.html` (растр с камеры). Интернет не нужен.
 
-## Как собрать APK без компьютера с Android Studio (GitHub)
-Загрузить содержимое этой папки в новый репозиторий — вкладка Actions → «Build APK» соберёт файл сам. Готовый `app-debug.apk` лежит в Artifacts завершённого запуска.
-
-## Как собрать APK в Android Studio
-1. Установить Android Studio, открыть папку проекта (File → Open). Он сам скачает Gradle и SDK (один раз нужен интернет).
-2. Build → Build Bundle(s) / APK(s) → Build APK(s).
-3. Готовый файл: `app/build/outputs/apk/debug/app-debug.apk`.
-
 ## Как поставить на телевизор
 - По сети: включить на ТВ «Отладка по USB/сети», затем `adb connect IP_ТВ` и `adb install app-debug.apk`.
 - Или скопировать APK на флешку и открыть файловым менеджером на ТВ (разрешить установку из неизвестных источников).
