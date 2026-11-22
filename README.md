@@ -1,3 +1,5 @@
+https://chaika-av.github.io/labd/
+
 # lab&d — Android / Android TV
 
 Приложение открывает локальную страницу `app/src/main/assets/index.html` (растр с камеры). Интернет не нужен.
